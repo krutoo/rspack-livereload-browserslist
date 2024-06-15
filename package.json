@@ -1,0 +1,34 @@
+{
+  "name": "rspack-livereload-bug-docs",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "check": "tsc -p . --noEmit",
+    "dev": "npx --node-options='--import=tsimp/import' rspack serve"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@rspack/cli": "^0.7.3",
+    "@rspack/core": "^0.7.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "css-loader": "^7.1.2",
+    "fast-glob": "^3.3.2",
+    "sass-embedded": "^1.77.5",
+    "sass-loader": "^14.2.1",
+    "tsimp": "^2.0.11",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@krutoo/utils": "^0.0.5",
+    "@sima-land/ui-nucleons": "^45.0.0-alpha.17",
+    "clipboard": "^2.0.11",
+    "lorem-ipsum": "^2.0.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "shiki": "^1.6.4",
+    "zod": "^3.23.8"
+  }
+}
